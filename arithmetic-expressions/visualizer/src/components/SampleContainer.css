@@ -1,0 +1,32 @@
+.SampleContainer-wrapper {
+  display: flex;
+}
+
+.SampleContainer {
+  display: flex;
+}
+
+.SampleContainer-cell {
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  background-color: lightgray;
+  border: solid 1px darkgray;
+  text-align: center;
+  cursor: pointer;
+}
+
+.SampleContainer-selected {
+  background-color: wheat !important;
+}
+
+.SampleContainer-button {
+  height: 30px;
+  line-height: 30px;
+  background-color: lightgray;
+  border: solid 1px darkgray;
+  text-align: center;
+  cursor: pointer;
+  margin-left: 15px;
+  padding: 0 10px;
+}

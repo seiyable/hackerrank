@@ -1,0 +1,9 @@
+.SampleGeneratorForm {
+  margin-bottom: 15px;
+  display: flex;
+}
+
+.SampleGeneratorForm-select {
+  margin-right: 15px;
+  margin-left: 15px;
+}

@@ -1,0 +1,15 @@
+.ResultTable {
+  margin-top: 20px;
+  border: 1px solid darkgray;
+  border-collapse: collapse;
+}
+
+.ResultTable-th, .ResultTable-td {
+  border: 1px solid darkgray;
+  padding: 5px;
+}
+
+.ResultTable-solved {
+  background-color: red;
+  color: white;
+}
