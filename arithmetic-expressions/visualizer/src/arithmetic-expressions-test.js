@@ -85,7 +85,11 @@ function ResultNode({parentNode, indexInSamples, operator, samples}) {
   this.expression = expression;
   this.total = total;
   this.remainder = total % 101;
-  this.remainderDash = 101 - this.remainder;
+  if (this.remainder >= 0) {
+    this.remainderDash = 101 - this.remainder;
+  } else {
+    this.remainderDash = 101 + this.remainder;
+  }
   this.childNodes = [];
 }
 
